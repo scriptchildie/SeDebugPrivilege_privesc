@@ -14,8 +14,11 @@ Set_Privilege SeTimeZonePrivilege enable
 
 Usage: 
 Change the IP & Port address in the $ReverseShellScriptBlock. 
+
 Modify the $PID_Debug to a PID of a process that runs as NT Auth. (Following command will give you a list in powershell.)
+
 Get-Process -IncludeUserName
+
 Lastly, debug_priv_esc should do the trick
 
 
